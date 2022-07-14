@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+
+  Новые URL
+
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <h1>ВАШ новый сокращенный URL:</h1>
+  <a href="http://127.0.0.1:5000/{{ id }}">http://127.0.0.1:5000/{{ id }}</a>
+</div>
+{% endblock %}
